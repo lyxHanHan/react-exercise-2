@@ -39,9 +39,21 @@ class Item extends React.Component {
       <div className="item">
         <p>iphone</p>
         <div className="iphoneItems">
-          <p className="iphone11">iphone11</p>
+          <p className="iphone11">iPhone11</p>
           <img src={img}></img>
-          <p className="iphone11">iphoneXS</p>
+          <p className="iphoneXS">iPhoneXS</p>
+          <button>add to cart</button>
+          <p className="iphoneSE">iPhoneSE</p>
+          <button>add to cart</button>
+        </div>
+
+        <p>HUAWEI</p>
+        <div className="huaWeiItems">
+          <p className="HUAWEI P40 Pro+">HUAWEI P40 Pro+</p>
+          <img src={img}></img>
+          <p className="HUAWEI Mate 30">HUAWEI Mate 30</p>
+          <button>add to cart</button>
+          <p className="HUAWEI nova 7">HUAWEI nova 7</p>
           <button>add to cart</button>
         </div>
       </div>
